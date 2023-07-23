@@ -6,7 +6,9 @@ const Header = () => {
       <header className="bg-slate-700 p-4 text-white">
          <nav className="flex justify-between items-center">
             <div className="flex items-center">
-               <h1 className="text-xl font-bold">My Next.js App</h1>
+               <Link href="/">
+                  <h1 className="text-xl font-bold">My Next.js App</h1>
+               </Link>
             </div>
             <ul className="flex space-x-4">
                <li>
