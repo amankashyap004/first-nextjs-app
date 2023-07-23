@@ -8,9 +8,13 @@ const Header = () => {
             <div className="flex items-center">
                <h1 className="text-xl font-bold">My Next.js App</h1>
             </div>
-            <ul className="flex space-x-4"> 
-               <li>Home</li>
-               <li>Blog</li>
+            <ul className="flex space-x-4">
+               <li>
+                  <Link href="/">Home</Link>
+               </li>
+               <li>
+                  <Link href="/blog">Blog</Link>
+               </li>
                <li>About</li>
                <li>Contact</li>
             </ul>
